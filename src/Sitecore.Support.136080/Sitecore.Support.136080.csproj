@@ -41,12 +41,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CRMSecurityProvider, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\CRMSEC.CRMSecurityProvider.2.3.2\lib\CRMSecurityProvider.dll</HintPath>
-      <Private>False</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\CRMSecurityProvider.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.CrmCampaignIntegration, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\CRMCAM.Sitecore.CrmCampaignIntegration.2.2.0\lib\Sitecore.CrmCampaignIntegration.dll</HintPath>
-      <Private>False</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.CrmCampaignIntegration.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Forms.Core">
       <HintPath>..\..\lib\Sitecore.Forms.Core.dll</HintPath>
